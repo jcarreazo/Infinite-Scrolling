@@ -1,0 +1,22 @@
+body{
+    background-color: whitesmoke;
+    text-align: center;
+}
+.title-container{
+    margin: 2rem 0 1rem 0;
+}
+
+.title{
+    font-size: 3rem;
+    font-family: "Oswald";
+}
+
+.loading img{
+    transform: translateY(100%);
+    
+}
+
+.scroll-wrapper img{
+    width: 90%;
+    margin: 0.5rem 0;
+}
