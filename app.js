@@ -30,6 +30,7 @@ function showPhotos() {
 
         item.appendChild(img);
         imagesWrapper.appendChild(item);
+        console.log(pics)
     });
 }
 
