@@ -1,6 +1,5 @@
 const loader = document.querySelector("#loader");
 const imagesWrapper = document.querySelector(".scroll-wrapper")
-loader.hidden = true;
 let photosArray;
 let newArray;
 const count = 10;
@@ -8,6 +7,8 @@ const apiKey = "z3n8ftkJtMh2HPr0b3aRhNCIxsb0ugTaFVDKeLtpOFk";
 const API = `https://api.unsplash.com/photos/random/?client_id=${apiKey}&count=${count}`
 let ready=false;
 let Imageload=0;
+loader.hidden = false;
+imagesWrapper.hidden=true;
 
 function setAttributes(element, attributes) {
     for (const key in attributes) {
@@ -19,8 +20,8 @@ function imgLoaded(){
     Imageload++;
     if (Imageload===count){
         ready=true;
-    }else{
-        ready=false;
+        loader.hidden = true;
+        imagesWrapper.hidden=false;
     }
 }
 
