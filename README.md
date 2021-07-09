@@ -21,7 +21,7 @@ _Developed by:_
 
 * **Jose Carreazo** - *Design, construction and develop.* - [jcarreazo](https://github.com/jcarreazo)
 
-You can also look at the list of all the [contributors](https://github.com/jcarreazo/Landing_Page_Responsive/contributors) who have participated in this project.
+You can also look at the list of all the [contributors](https://github.com/jcarreazo/Infinite-Scrolling/contributors) who have participated in this project.
 
 ## Licence📄
 
